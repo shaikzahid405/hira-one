@@ -1,0 +1,23 @@
+.replySubmit {
+  background-color: rgb(29, 167, 29);
+  display: none !important;
+}
+
+.createReply-container {
+  max-width: 300px;
+  display: flex;
+}
+
+.replyItem {
+  margin-left: auto;
+  min-width: 300px;
+  max-width: 400px;
+  min-height: 200px;
+  max-height: 220px;
+  margin-bottom: 20px;
+  margin-right: 12px;
+}
+
+.createReply-text > .MuiInputBase-fullWidth {
+  max-width: 60vw;
+}

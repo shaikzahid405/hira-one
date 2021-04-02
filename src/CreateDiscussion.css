@@ -1,0 +1,7 @@
+.discusssionSubmit {
+  background-color: rgb(29, 167, 29);
+}
+
+.createDiscussion-text > .MuiFormControl-root {
+  min-width: 40vw;
+}
