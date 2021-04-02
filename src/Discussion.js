@@ -9,7 +9,7 @@ function Discussion() {
     return (
         <div>
             {
-                     discussions && discussions.map(({text,createdBy,createdTime,replies,id})=>
+                     discussions && discussions.map(({text,createdBy,createdTime,replies,id})=>(
                         <DiscussionItem key ={id} id ={id} text ={text}  createdBy ={createdBy} createdTime = {createdTime} replies ={replies} />
                      )
                
